@@ -1,0 +1,611 @@
+[
+   {
+      "id": "AddPowerChargeOnCritInfluence1",
+      "type": "suffix",
+      "effective_weight": 250,
+      "tag": "body_armour_crusader",
+      "group": "PowerChargeOnCriticalStrikeChance"
+   },
+   {
+      "id": "AttackerTakesDamage1",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "AttackerTakesDamageNoRange"
+   },
+   {
+      "id": "AttackerTakesDamage2",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "AttackerTakesDamageNoRange"
+   },
+   {
+      "id": "AttackerTakesDamage3",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "AttackerTakesDamageNoRange"
+   },
+   {
+      "id": "AttackerTakesDamage4",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "AttackerTakesDamageNoRange"
+   },
+   {
+      "id": "ChaosResist1",
+      "type": "suffix",
+      "effective_weight": 250,
+      "tag": "armour",
+      "group": "ChaosResistance"
+   },
+   {
+      "id": "ChaosResist2",
+      "type": "suffix",
+      "effective_weight": 250,
+      "tag": "armour",
+      "group": "ChaosResistance"
+   },
+   {
+      "id": "ChaosResist3",
+      "type": "suffix",
+      "effective_weight": 250,
+      "tag": "armour",
+      "group": "ChaosResistance"
+   },
+   {
+      "id": "ChaosResist4",
+      "type": "suffix",
+      "effective_weight": 250,
+      "tag": "armour",
+      "group": "ChaosResistance"
+   },
+   {
+      "id": "ChaosResist5",
+      "type": "suffix",
+      "effective_weight": 250,
+      "tag": "armour",
+      "group": "ChaosResistance"
+   },
+   {
+      "id": "ChaosResist6",
+      "type": "suffix",
+      "effective_weight": 250,
+      "tag": "armour",
+      "group": "ChaosResistance"
+   },
+   {
+      "id": "ColdResist1",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "ColdResistance"
+   },
+   {
+      "id": "ColdResist2",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "ColdResistance"
+   },
+   {
+      "id": "ColdResist3",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "ColdResistance"
+   },
+   {
+      "id": "ColdResist4",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "ColdResistance"
+   },
+   {
+      "id": "ColdResist5",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "ColdResistance"
+   },
+   {
+      "id": "ColdResist6",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "ColdResistance"
+   },
+   {
+      "id": "ColdResist7",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "ColdResistance"
+   },
+   {
+      "id": "ColdResist8",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "ColdResistance"
+   },
+   {
+      "id": "ConsecratedGroundStationaryInfluence1_",
+      "type": "prefix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "ConsecratedGroundStationary"
+   },
+   {
+      "id": "EnergyShieldOnKillPercentInfluence1_",
+      "type": "suffix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "MaximumEnergyShieldOnKillPercent"
+   },
+   {
+      "id": "EnergyShieldOnKillPercentInfluence2_",
+      "type": "suffix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "MaximumEnergyShieldOnKillPercent"
+   },
+   {
+      "id": "EnergyShieldRecoveryRateBodyInfluence1",
+      "type": "suffix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "EnergyShieldRecovery"
+   },
+   {
+      "id": "EnergyShieldRecoveryRateBodyInfluence2",
+      "type": "suffix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "EnergyShieldRecovery"
+   },
+   {
+      "id": "FireResist1",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "FireResistance"
+   },
+   {
+      "id": "FireResist2",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "FireResistance"
+   },
+   {
+      "id": "FireResist3",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "FireResistance"
+   },
+   {
+      "id": "FireResist4",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "FireResistance"
+   },
+   {
+      "id": "FireResist5",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "FireResistance"
+   },
+   {
+      "id": "FireResist6",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "FireResistance"
+   },
+   {
+      "id": "FireResist7",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "FireResistance"
+   },
+   {
+      "id": "FireResist8",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "FireResistance"
+   },
+   {
+      "id": "HolyPhysicalExplosionChanceInfluence1",
+      "type": "prefix",
+      "effective_weight": 100,
+      "tag": "body_armour_crusader",
+      "group": "EnemiesExplodeOnDeath"
+   },
+   {
+      "id": "HolyPhysicalExplosionChanceInfluence2_",
+      "type": "prefix",
+      "effective_weight": 25,
+      "tag": "body_armour_crusader",
+      "group": "EnemiesExplodeOnDeath"
+   },
+   {
+      "id": "IncreasedLife0",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour_crusader",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife1",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour_crusader",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife10",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife11",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife12",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife2",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife3",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife4",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife5",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife6",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife7",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife8",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "IncreasedLife9",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "IncreasedLife"
+   },
+   {
+      "id": "LifeRegeneration1",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration10__",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration11____",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration2",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration3",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration4",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration5",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration6",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration7",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration8_",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LifeRegeneration9",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "LifeRegeneration"
+   },
+   {
+      "id": "LightningResist1",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "LightningResistance"
+   },
+   {
+      "id": "LightningResist2",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "LightningResistance"
+   },
+   {
+      "id": "LightningResist3",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "LightningResistance"
+   },
+   {
+      "id": "LightningResist4",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "LightningResistance"
+   },
+   {
+      "id": "LightningResist5",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "LightningResistance"
+   },
+   {
+      "id": "LightningResist6",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "LightningResistance"
+   },
+   {
+      "id": "LightningResist7",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "LightningResistance"
+   },
+   {
+      "id": "LightningResist8",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "LightningResistance"
+   },
+   {
+      "id": "LocalIncreasedArmourAndEnergyShield8",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "DefencesPercent"
+   },
+   {
+      "id": "LocalIncreasedArmourAndEvasion8",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "DefencesPercent"
+   },
+   {
+      "id": "LocalIncreasedArmourEvasionEnergyShield7__",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "DefencesPercent"
+   },
+   {
+      "id": "LocalIncreasedEnergyShieldPercent8",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "DefencesPercent"
+   },
+   {
+      "id": "LocalIncreasedEvasionAndEnergyShield8",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "DefencesPercent"
+   },
+   {
+      "id": "LocalIncreasedEvasionRatingPercent8",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "DefencesPercent"
+   },
+   {
+      "id": "LocalIncreasedPhysicalDamageReductionRatingPercent8_",
+      "type": "prefix",
+      "effective_weight": 1000,
+      "tag": "body_armour",
+      "group": "DefencesPercent"
+   },
+   {
+      "id": "MaximumManaInfluence1",
+      "type": "prefix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "MaximumManaIncreasePercent"
+   },
+   {
+      "id": "MaximumManaInfluence2_",
+      "type": "prefix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "MaximumManaIncreasePercent"
+   },
+   {
+      "id": "PercentageIntelligenceBodyInfluence1",
+      "type": "suffix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "PercentageIntelligence"
+   },
+   {
+      "id": "PercentageIntelligenceBodyInfluence2___",
+      "type": "suffix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "PercentageIntelligence"
+   },
+   {
+      "id": "PhysTakenAsLightningInfluence1",
+      "type": "prefix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "PhysicalDamageTakenAsElement"
+   },
+   {
+      "id": "PhysTakenAsLightningInfluence2",
+      "type": "prefix",
+      "effective_weight": 500,
+      "tag": "body_armour_crusader",
+      "group": "PhysicalDamageTakenAsElement"
+   },
+   {
+      "id": "ReducedLocalAttributeRequirements1",
+      "type": "suffix",
+      "effective_weight": 850,
+      "tag": "body_armour",
+      "group": "LocalAttributeRequirements"
+   },
+   {
+      "id": "ReducedLocalAttributeRequirements2",
+      "type": "suffix",
+      "effective_weight": 850,
+      "tag": "body_armour",
+      "group": "LocalAttributeRequirements"
+   },
+   {
+      "id": "StunRecovery1",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "StunRecovery"
+   },
+   {
+      "id": "StunRecovery2",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "StunRecovery"
+   },
+   {
+      "id": "StunRecovery3",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "StunRecovery"
+   },
+   {
+      "id": "StunRecovery4",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "StunRecovery"
+   },
+   {
+      "id": "StunRecovery5",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "StunRecovery"
+   },
+   {
+      "id": "StunRecovery6",
+      "type": "suffix",
+      "effective_weight": 1000,
+      "tag": "armour",
+      "group": "StunRecovery"
+   }
+]

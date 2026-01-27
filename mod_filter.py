@@ -18,16 +18,14 @@ for key, value in filtered.items():
     temp_dict["type"] = value["generation_type"]
     temp_dict["group"] = value["groups"][0]
     temp_dict["min_ilvl"] = value["required_level"]
-    temp_dict["weight"] = 0
-    for item in value["spawn_weights"]:
-        if item["tag"] == "default":
-            temp_dict["weight"] = item["weight"]
+    temp_dict["spawn_weights"] = value["spawn_weights"]
     dict_list.append(temp_dict)
 
 with open('normalized_mods.json', 'w') as json_file:
-        json.dump(dict_list, json_file, indent= 3) 
+        json.dump(dict_list, json_file, indent= 3)
     
-print(filtered["ColdDamagePercent6"])
+
+    
    
 
 
