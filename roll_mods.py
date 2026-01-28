@@ -5,7 +5,8 @@ import random
 
 
 def roll_mods(mod_pool, item):
-    for _ in range(3):
+    mod_number = random.randint(1, 6)
+    for _ in range(mod_number):
         eligible_mods = []
         for mod in mod_pool:
             if mod["type"] == "prefix":
@@ -24,4 +25,8 @@ def roll_mods(mod_pool, item):
                 item["suffix_count"] += 1
         item['blocked_groups'].add(selected_mod['group'])
         item['rolled_mods'].append(selected_mod['id'])
+    if mod_number <= 2:
+          item['rarity'] = 'magic'
+    else:
+          item['rarity'] = 'rare'
     return item

@@ -9,7 +9,7 @@ def filter_items(raw_items):
     filter = {}
 
     for key, value in raw_items.items():
-          if value.get("domain") == 'item':
+          if value.get("domain") == 'item' and value.get('release_state') == 'released':
                 filter[key] = value
 
     dict_list = []
@@ -33,6 +33,7 @@ def generate_item(filtered_items):
       random_item = random.choice(filtered_items)
       
       item = {
+            'name': random_item['name'],
             'ilvl': random.randint(random_item['drop_level'], 100),
             'tags': random_item['tags'],
             'prefix_count': 0,
@@ -40,5 +41,7 @@ def generate_item(filtered_items):
             'blocked_groups': set(),
             'rolled_mods': [],
       }
+      if item['name'] == 'Energy Blade':
+            return generate_item(filtered_items)
       return item
 
