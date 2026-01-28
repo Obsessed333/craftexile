@@ -1,12 +1,10 @@
-from item_mod_pool_gen import generate_mod_pool
-import json
 import random
 
 
 
-def roll_mods(mod_pool, item):
-    mod_number = random.randint(1, 6)
-    for _ in range(mod_number):
+def roll_mods(mod_pool, item, num_mods):
+
+    for _ in range(num_mods):
         eligible_mods = []
         for mod in mod_pool:
             if mod["type"] == "prefix":
@@ -25,8 +23,6 @@ def roll_mods(mod_pool, item):
                 item["suffix_count"] += 1
         item['blocked_groups'].add(selected_mod['group'])
         item['rolled_mods'].append(selected_mod['id'])
-    if mod_number <= 2:
-          item['rarity'] = 'magic'
-    else:
-          item['rarity'] = 'rare'
+ 
     return item
+
