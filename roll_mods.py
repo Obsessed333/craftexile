@@ -2,20 +2,7 @@ from item_mod_pool_gen import generate_mod_pool
 import json
 import random
 
-with open("normalized_mods.json", encoding="utf-8") as f:
-    all_mods = json.load(f)
 
-item = {
-    "ilvl": 90,
-    "tags": ["body_armour", "crusader"],
-    "prefix_count": 0,
-    "suffix_count": 0,
-    "blocked_groups": set(),
-    "rolled_mods": []
-}
-
-
-mod_pool = generate_mod_pool(all_mods, item)
 
 def roll_mods(mod_pool, item):
     for _ in range(3):
@@ -37,5 +24,4 @@ def roll_mods(mod_pool, item):
                 item["suffix_count"] += 1
         item['blocked_groups'].add(selected_mod['group'])
         item['rolled_mods'].append(selected_mod['id'])
-    print(item)
-roll_mods(mod_pool, item)
+    return item

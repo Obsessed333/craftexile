@@ -1,13 +1,7 @@
 import json
 
 
-with open("normalized_mods.json", encoding="utf-8") as f:
-    all_mods = json.load(f)
 
-    item = {
-    'ilvl': 90,
-    'tags': ['body_armour', 'crusader']
-}
 
 def generate_mod_pool(all_mods, item):
     
