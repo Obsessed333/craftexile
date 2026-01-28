@@ -3,7 +3,7 @@ from mod_filter import filter_mods
 from item_mod_pool_gen import generate_mod_pool
 from roll_mods import roll_mods
 from generate_random_item import generate_item, filter_items
-from orbs import use_alchemy, use_alteration, use_chaos, use_transmute
+from orbs import use_alchemy, use_alteration, use_chaos, use_transmute, use_scouring
 from print import print_item
 
 
@@ -29,6 +29,7 @@ def main():
         print("A) Use Alteration")
         print("L) Use Alchemy")
         print("C) Use Chaos")
+        print("X) Use Scouring")
         print("S) Show current item")
         print("Q) Quit")
 
@@ -94,7 +95,17 @@ def main():
             else:
                 current_item = new_item
                 print_item(current_item, ALL_MODS_BY_ID)
-            
+        
+        elif choice =="x":
+            if current_item == None:
+                print('No item yet. Generate one first')
+                continue
+            new_item = use_scouring(current_item)
+            if new_item is None:
+                print("Scouring can only be used in magic or rare items.")
+            else:
+                current_item = new_item
+                print_item(current_item, ALL_MODS_BY_ID)
 
 
     
